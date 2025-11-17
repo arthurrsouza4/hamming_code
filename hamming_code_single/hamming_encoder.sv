@@ -1,8 +1,8 @@
-// Hamming Code Encoder Implementation in SystemVerilog
-// This file contains module for Hamming (7,4) encoding.
+// Hamming Code Implementation in SystemVerilog
+// This file contains module for Hamming Code (7,4) encoding.
 // by @arthurrsouza4
 
-// Hamming (7,4) Encoder
+// Hamming Code (7,4) Encoder
 module hamming_encoder (
     input  logic [3:0] data_in, // (D4, D3, D2, D1)
     output logic [6:0] codeword
@@ -19,6 +19,7 @@ module hamming_encoder (
     assign p1 = d1 ^ d2 ^ d4; // P1
     assign p2 = d1 ^ d3 ^ d4; // P2
     assign p3 = d2 ^ d3 ^ d4; // P3
+
     // construct codeword
     assign codeword = {d4, d3, d2, p3, d1, p2, p1};
 

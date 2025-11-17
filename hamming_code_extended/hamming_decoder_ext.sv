@@ -1,4 +1,6 @@
-// Hamming Code Extended eH(8,4) Decoder Implementation in SystemVerilog
+// Extended Hamming Code Implementation in SystemVerilog
+// This file contains module for Extended Hamming Code (8,4) decoding with single-bit error correction and double-bit error detection.
+// by @arthurrsouza4
 
 module hamming_decoder_ext (
     input  logic [7:0] codeword,

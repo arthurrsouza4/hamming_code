@@ -1,8 +1,8 @@
-// Hamming Code Decoder Implementation in SystemVerilog
-// This file contains module for Hamming (7,4) decoding.
+// Hamming Code Implementation in SystemVerilog
+// This file contains module for Hamming Code (7,4) decoding.
 // by @arthurrsouza4
 
-// Hamming (7,4) Decoder with Single-Bit Error Correction
+// Hamming Code (7,4) Decoder with Single-Bit Error Correction
 module hamming_decoder (
     input  logic [6:0] codeword,
     output logic [3:0] data_out

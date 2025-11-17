@@ -1,4 +1,6 @@
-// Hamming Code Extended eH(8,4) Encoder Implementation in SystemVerilog
+// Extended Hamming Code Implementation in SystemVerilog
+// This file contains module for Extended Hamming Code (8,4) encoding with single-bit error correction and double-bit error detection.
+// by @arthurrsouza4
 
 module hamming_encoder_ext (
     input  logic [3:0] data_in, // (D4, D3, D2, D1)
