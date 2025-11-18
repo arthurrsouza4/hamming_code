@@ -1,5 +1,5 @@
 // automatized testbench for Extended Hamming Code eH(8,4) - 3 scenarios
-// by @arthurrsouza4 (adapted)
+// by @arthurrsouza4
 
 module tb_hamming_ext;
 
